@@ -35,3 +35,49 @@ os = "windows"
     [[easi.download]]
     sha256 = "2c25155687f55425cb08c8e3d78599eff99322507e3a7e9e18c2ce29ff130c40"
     url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.x86_64-w64-mingw32-cxx11.tar.gz"
+[[easi]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "595431932826625a684f42d9a3c82bf42f8d65a6"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[easi.download]]
+    sha256 = "b544fa9b8ca73e7a0646106a0b4ef95d50c1c49a4571f89ca109277e5f0474b6"
+    url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.aarch64-apple-darwin-cxx11-mpi+mpich.tar.gz"
+[[easi]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "938f956c598e059317f2a4e79c54f390a59d039f"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[easi.download]]
+    sha256 = "7ceb96673b31c2eab12ec7cb43de74b3c8f7eb3194920fd8526e984fc6cab5ac"
+    url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.aarch64-linux-gnu-cxx11-mpi+mpich.tar.gz"
+[[easi]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "14706e77b4bc9ac22aa93cf9f9795a68151ff7d8"
+lazy = true
+mpi = "mpich"
+os = "macos"
+
+    [[easi.download]]
+    sha256 = "2635791f628f005e5cb2c21edd0de9ed4af4917c608b114286be9baa1ca6072d"
+    url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
+[[easi]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "9be0c8cf2559efe27ba2fadec5f1c7712fac1863"
+lazy = true
+libc = "glibc"
+mpi = "mpich"
+os = "linux"
+
+    [[easi.download]]
+    sha256 = "8cfaca2bf3a6a918e5129c4b374b8b413a6ca4aad9dd4f3d38b033a92568c0bf"
+    url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.x86_64-linux-gnu-cxx11-mpi+mpich.tar.gz"

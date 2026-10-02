@@ -418,13 +418,13 @@ os = "linux"
 [[easi]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "213ec6130ede24e8ed2d5f014342fa8894259504"
+git-tree-sha1 = "d7596dc3c7513362ed6c82309438f61c74f6f06b"
 lazy = true
 mpi = "microsoftmpi"
 os = "windows"
 
     [[easi.download]]
-    sha256 = "456be438220672131e467345b388257ca330e37784129de77f01a0b39538bc43"
+    sha256 = "e5689b884f59a93a72cf6354408d0a874c0babd31dc015d01b07b395b43eab16"
     url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.i686-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"
 [[easi]]
 arch = "powerpc64le"
@@ -689,11 +689,11 @@ os = "freebsd"
 [[easi]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1feac613c33e90046aebab7a8bd231029112c2a8"
+git-tree-sha1 = "60cbcd4c30bb0b149702299157ac97e2d93d60d5"
 lazy = true
 mpi = "microsoftmpi"
 os = "windows"
 
     [[easi.download]]
-    sha256 = "2c25155687f55425cb08c8e3d78599eff99322507e3a7e9e18c2ce29ff130c40"
+    sha256 = "0396bba35cdae5b118279f72f3fed89ca7017594425d49e0165e8fc21c8b45e9"
     url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.x86_64-w64-mingw32-cxx11-mpi+microsoftmpi.tar.gz"

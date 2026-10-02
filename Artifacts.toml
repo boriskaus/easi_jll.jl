@@ -1,27 +1,5 @@
 [[easi]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "595431932826625a684f42d9a3c82bf42f8d65a6"
-lazy = true
-mpi = "mpich"
-os = "macos"
-
-    [[easi.download]]
-    sha256 = "b544fa9b8ca73e7a0646106a0b4ef95d50c1c49a4571f89ca109277e5f0474b6"
-    url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.aarch64-apple-darwin-cxx11-mpi+mpich.tar.gz"
-[[easi]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "14706e77b4bc9ac22aa93cf9f9795a68151ff7d8"
-lazy = true
-mpi = "mpich"
-os = "macos"
-
-    [[easi.download]]
-    sha256 = "2635791f628f005e5cb2c21edd0de9ed4af4917c608b114286be9baa1ca6072d"
-    url = "https://github.com/boriskaus/easi_jll.jl/releases/download/easi-v1.7.0+0/easi.v1.7.0.x86_64-apple-darwin-cxx11-mpi+mpich.tar.gz"
-[[easi]]
-arch = "aarch64"
 git-tree-sha1 = "0ea3a7351d1e6a942b0b87f124799a18790bf853"
 lazy = true
 mpi = "mpiabi"
